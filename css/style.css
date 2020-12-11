@@ -1,0 +1,64 @@
+@import url("components/container.css");
+@import url("components/logo.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+/* Media queries */
+
+ @media (max-width: 960px) {
+ 	.container {
+ 		width: 700px;
+ 	}
+ }
+
+ @media (max-width: 720px) {
+ 	.container {
+ 		width: 500px;
+ 	}
+ }
+
+@media (max-width: 540px) {
+ 	.container {
+ 		width: 300px;
+ 	}
+ }benner
+
+
+ /* Body etc */
+ p {
+	font-family: 'Andika New Basic', sans-serif;
+}
+body { 
+	background-color: #F8C0B5;
+	color: #00123D; 
+	font-family: 'Andika New Basic', sans-serif;
+	font-size: 17px;
+	font-weight: 100;
+}
+
+/* Classes and Ids */
+.card-trip {
+	width: 250px;
+}
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 400px;
+	margin: 10px auto;
+}
+
+#header {
+	background: ;
+	font-weight: 10;
+	font-size: 40px;
+}
+.cards {
+	display: flex;
+	justify-content: space-between;
+}
+.card-trip {
+	justify-content: space-between;
+}
